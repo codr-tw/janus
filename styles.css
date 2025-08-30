@@ -174,9 +174,11 @@ body {
 .screenshots {
     margin: 60px 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .screenshot-item {
@@ -194,11 +196,7 @@ body {
 }
 
 .screenshot-image:nth-child(2) {
-    animation-delay: -1.3s;
-}
-
-.screenshot-image:nth-child(3) {
-    animation-delay: -2.6s;
+    animation-delay: -2s;
 }
 
 @keyframes floatScreenshot {
